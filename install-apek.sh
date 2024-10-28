@@ -35,7 +35,7 @@ check_success
 
 # Instalacja reszy apek z AUR
 echo "Instalacja apek z AUR."
-yay -S visual-studio-code-bin spotify freeoffice onlyoffice-bin bpytop mangohud-git gzdoom-bin raze-bin ttf-dejavu openrgb minecraft-launcher pnpm yt-dlp caprine protontricks qemu docker vpcs dynamips libvirt ubridge inetutils gns3-server gns3-gui update-grub kvantum-qt6-git librewolf-bin vesktop-bin pycharm-professional intellij-idea-ultimate-edition intellij-idea-ultimate-edition-jre heroic-games-launcher protonup-qt
+yay -S visual-studio-code-bin spotify freeoffice onlyoffice-bin bpytop mangohud-git gzdoom-bin raze-bin ttf-dejavu openrgb minecraft-launcher pnpm yt-dlp caprine protontricks qemu docker vpcs dynamips libvirt ubridge inetutils gns3-server gns3-gui update-grub kvantum-qt6-git librewolf-bin vesktop-bin pycharm-professional intellij-idea-ultimate-edition intellij-idea-ultimate-edition-jre heroic-games-launcher protonup-qt iwlwifi-lar-disable-dkms networkmanager-iwd
 check_success
 
 # Ustawianie czasu na lokalny
