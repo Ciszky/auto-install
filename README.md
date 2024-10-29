@@ -25,6 +25,9 @@ Skrypt instaluje pakiet `vmware-workstation` z Arch User Repository i włącza `
 
 Na koniec usługi sieciowe i kontrolujące USB są włączone i instalacja pakietów jest zakończona.
 
+## install-network.sh
+Skrypt zainstaluje pakiety `iwlwifi-lar-disable-dkms` i `networkmanager-iwd`, które zapobiegają niskim prędkością internetu na kartach sieciowych z chipem Intel AX200.
+
 # Koniec
 Po wykonaniu tych trzech skryptów jesteś gotowy na korzystanie ze swojego systemu.
 
