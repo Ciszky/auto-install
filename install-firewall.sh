@@ -18,6 +18,10 @@ echo "Uruchamianie firewalld..."
 sudo systemctl start firewalld.service
 check_success
 
+echo "Włączenie firewalla przy starcie systemu..."
+sudo systemctl enable firewalld.service
+check_success
+
 # Dodawanie portów do strefy publicznej w firewalld
 echo "Dodawanie portów używanych przez KDE Connect do strefy publicznej..."
 sudo firewall-cmd --zone=public --permanent --add-port=1714-1764/tcp
@@ -36,3 +40,5 @@ sudo freshclam
 check_success
 
 echo "Antyświr zainstalowany. Tylko go musisz skonfiguorwać ręcznie."
+echo "Szybki restart żeby antyświr się odpalił"
+reboot
