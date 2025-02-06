@@ -30,7 +30,7 @@ fi
 
 # Instalacja pakietów z oficjalnych repozytoriów pacman
 echo "Instalacja pakietów pierwszej ciszkowej potrzeby"
-sudo pacman -S vlc gutenprint cups system-config-printer fish neofetch steam steam-native-runtime lutris wine wine-mono wine-gecko mono obs-studio linux-headers v4l2loopback-dkms nodejs gamescope gameconqueror rsync dkms jdk17-openjdk bluez-utils winetricks kdenlive kdeconnect okular gwenview transmission-qt qnapi github-cli
+sudo pacman -S vlc gutenprint cups system-config-printer fish ghostty neofetch steam steam-native-runtime lutris wine wine-mono wine-gecko mono obs-studio linux-headers v4l2loopback-dkms nodejs gamescope gameconqueror rsync dkms jdk17-openjdk bluez-utils winetricks kdenlive kdeconnect okular gwenview transmission-qt qnapi github-cli
 check_success
 
 # Instalacja reszy apek z AUR
