@@ -30,12 +30,12 @@ fi
 
 # Instalacja pakietów z oficjalnych repozytoriów pacman
 echo "Instalacja pakietów pierwszej ciszkowej potrzeby"
-sudo pacman -S vlc gutenprint cups system-config-printer fish ghostty neofetch steam steam-native-runtime lutris wine wine-mono wine-gecko mono obs-studio linux-headers v4l2loopback-dkms nodejs gamescope gameconqueror rsync dkms jdk17-openjdk bluez-utils winetricks kdenlive kdeconnect okular gwenview transmission-qt qnapi github-cli
+sudo pacman -S vlc gutenprint cups system-config-printer fish ghostty kitty neofetch steam steam-native-runtime lutris wine wine-mono wine-gecko mono obs-studio linux-headers v4l2loopback-dkms nodejs gamescope gameconqueror rsync dkms jdk17-openjdk bluez-utils winetricks kdenlive kdeconnect okular gwenview transmission-qt qnapi github-cli imagemagick ttf-jetbrains-mono ttf-fira-code ttf-fira-sans
 check_success
 
 # Instalacja reszy apek z AUR
 echo "Instalacja apek z AUR."
-yay -S brave-bin vscodium-bin spotify freeoffice onlyoffice-bin bpytop mangohud-git gzdoom-bin raze-bin ttf-dejavu openrgb minecraft-launcher pnpm yt-dlp caprine protontricks qemu docker vpcs dynamips libvirt ubridge inetutils gns3-server gns3-gui update-grub kvantum-qt6-git librewolf-bin vesktop-bin jetbrains-toolbox heroic-games-launcher protonup-qt xone-dlundqvist-dkms-git ttf-times-new-roman mov-cli python-mov-cli-files python-mov-cli-youtube
+yay -S brave-bin zen-browser-bin vscodium-bin spotify freeoffice onlyoffice-bin bpytop mangohud-git gzdoom-bin raze-bin ttf-dejavu openrgb vintagestory pnpm yt-dlp protontricks qemu docker vpcs dynamips libvirt ubridge inetutils gns3-server gns3-gui update-grub kvantum-qt6-git vesktop-bin heroic-games-launcher protonup-qt xone-dlundqvist-dkms-git ttf-times-new-roman mov-cli python-mov-cli-files python-mov-cli-youtube
 check_success
 
 # Ustawianie czasu na lokalny
