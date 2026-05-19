@@ -35,7 +35,7 @@ check_success
 
 # Instalacja reszy apek z AUR
 echo "Instalacja apek z AUR."
-yay -S zen-browser-bin vscodium-bin spotify onlyoffice-bin bpytop mangohud-git ttf-dejavu openrgb pnpm yt-dlp protontricks update-grub kvantum-qt6-git protonup-qt xone-dkms-git ttf-times-new-roman nwg-look qt5ct qt6ct
+yay -S --noconfirm zen-browser-bin vscodium-bin spotify onlyoffice-bin bpytop mangohud-git ttf-dejavu openrgb pnpm yt-dlp protontricks update-grub kvantum-qt6-git protonup-qt xone-dkms-git ttf-times-new-roman nwg-look qt5ct qt6ct
 check_success
 
 # Instalacja flathub
